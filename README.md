@@ -1,6 +1,6 @@
 # eFood — M37 | EBAC
 
-Projeto independente baseado na M36 (`efood-m36-corrigido`). Preserva a listagem e os cardápios da API, a modal de produto e os recursos visuais da M35/M36. O carrinho foi migrado de Context para **Redux Toolkit**, com **React Redux**.
+Projeto independente baseado na M36 (`efood-m36-corrigido`). Preserva a listagem e os cardápios da API, a modal de produto e os recursos visuais da M35/M36.
 
 ## Requisitos implementados
 
@@ -53,5 +53,3 @@ O contexto dos restaurantes não controla o carrinho. Todo o estado do carrinho 
 ## Publicação posterior
 
 Hospedagem escolhida: Vercel. Framework Vite; comando de build `npm run build`; saída `dist`. O arquivo `vercel.json` permite abrir diretamente `/carrinho` e `/restaurante/:id`.
-
-Esta cópia não contém `.git`, dependências instaladas ou vínculo com repositório remoto. A criação do novo repositório, a publicação e a entrega à EBAC serão feitas pelo estudante, após a revisão local. Veja `PASSO_A_PASSO.md`.
